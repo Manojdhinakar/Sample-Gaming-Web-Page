@@ -1,2 +1,2 @@
-# Sample-Gaming-Web-Page
+# Sample-Gaming-WebPage.
 Creating an outlook of a Gaming web page .
