@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+    align-items: center;
+    
+}
+body{
+    height: 100vh;
+    background: url(game.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+h2
+{
+    color: skyblue;
+}
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(26, 197, 228, 0.959);
+    background-color: rgba(1, 0, 7, 0.705);
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li
+{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+header ul li:hover{
+    background: linear-gradient(#ff7066,#52ecbe);
+    color:black;
+}
+header ul li:nth-child(1)
+{
+    border-top: 4px solid #f7733f;
+}
+main{
+    
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+   
+}
+
+div
+{
+    border-style:double;
+    background-color: rgb(66, 53, 56);
+    padding:1px;
+    border-color:rgb(68, 188, 209);
+    border-radius: 7px;
+    
+}
+main p{
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(3, 3, 3, 0.877);
+    color: powderblue;
+     border-radius: 30px;
+} 
+ main input{
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: Teal;
+    background: linear-gradient(#ff7066,#52ecbe);
+    cursor: pointer;
+ }
+main input:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+    }
+
+
+
+
